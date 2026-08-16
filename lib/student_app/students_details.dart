@@ -50,6 +50,7 @@ class _StudentsDetailsState extends State<StudentsDetails> {
       body: Column(
         spacing: 5,
         crossAxisAlignment: CrossAxisAlignment.center,
+       // crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           CircleAvatar(
             backgroundImage: NetworkImage("${widget.img}"),
@@ -57,6 +58,7 @@ class _StudentsDetailsState extends State<StudentsDetails> {
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
+            //mainAxisAlignment: MainAxisAlignment.center,
             children: [MyTextWidget(title: "${widget.name}", tSize: 30)],
           ),
           MyTextWidget(title: "${widget.phone}", tSize: 20),
