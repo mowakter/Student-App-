@@ -16,10 +16,12 @@ class MyButton extends StatelessWidget {
         color: Colors.blueAccent,
         child: Row(
           mainAxisSize: MainAxisSize.min,
+         // mainAxisSize: MainAxisSize.min,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 100),
+             // padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 100),
               child: MyTextWidget(title: bName, tColor: Colors.white, tSize: 17),
             ),
           ],
